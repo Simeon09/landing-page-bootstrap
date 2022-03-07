@@ -1,0 +1,123 @@
+.link {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.link a:nth-child(1) {
+  background-color: #020636;
+  color: #F8F0E3;
+  border: #020636;
+}
+
+@media screen and (max-width: 991px) {
+  .link a:nth-child(1) {
+    margin-bottom: 20px;
+  }
+}
+
+.link a:nth-child(2) {
+  color: #020636;
+}
+
+.link a:nth-child(2) img {
+  padding-right: 5px;
+}
+
+.link a {
+  border: 2px solid #020636;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  padding: 0.5vw;
+  width: 9vw;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  .link a {
+    width: 100px;
+  }
+}
+
+.link a span {
+  font-size: 1vw;
+  line-height: 1;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-family: Nunito Sans;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 991px) {
+  .link a span {
+    font-size: 10px;
+  }
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.d-flex {
+  width: 30vw;
+}
+
+@media screen and (max-width: 991px) {
+  .d-flex {
+    display: none !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: -6vw;
+    margin-bottom: 3vw;
+  }
+}
+
+.navbar-nav {
+  margin: auto;
+  font-size: 1.5vw;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+@media only screen and (max-width: 984px) {
+  .navbar-nav {
+    font-size: 22px;
+  }
+}
+
+.navbar-nav li {
+  padding-left: 2vw;
+}
+
+.navbar-nav .nav-link {
+  color: #020636 !important;
+  font-family: Nunito Sans;
+  font-weight: 700;
+}
+
+.navbar-nav .home {
+  color: #D65123 !important;
+}
+
+.navbar {
+  background-color: #F8F0E3 !important;
+}
+/*# sourceMappingURL=style.css.map */
