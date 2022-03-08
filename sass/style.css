@@ -120,4 +120,124 @@
 .navbar {
   background-color: #F8F0E3 !important;
 }
+
+.section1 {
+  background-color: #020636;
+}
+
+.row {
+  color: #F8F0E3;
+  padding-top: 6vw;
+  padding-bottom: 7vw;
+}
+
+.row div:nth-child(1) {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.row div:nth-child(1) h3 {
+  font-size: 2.5vw;
+  font-weight: 700;
+  font-family: Nunito Sans;
+  width: 29vw;
+  margin-top: 3vw;
+}
+
+@media screen and (max-width: 767px) {
+  .row div:nth-child(1) h3 {
+    font-size: 8vw;
+    width: 78vw;
+  }
+}
+
+.row div:nth-child(1) h3 span:nth-child(1) {
+  border: 2px solid #D65123;
+  border-radius: 60%;
+  padding: 7px 0px 7px 5px;
+}
+
+.row div:nth-child(1) h3 span:nth-child(2) {
+  color: #D65123;
+}
+
+.row div:nth-child(1) p {
+  width: 22.1vw;
+  font-size: 1vw;
+  color: rgba(248, 240, 227, 0.8);
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .row div:nth-child(1) p {
+    font-size: 2vw;
+    width: 60vw;
+  }
+}
+
+.row div:nth-child(1) .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 23vw;
+}
+
+.row div:nth-child(1) .button a {
+  text-decoration: none;
+  color: #F8F0E3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1;
+  width: 10vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px 0px 8px 0px;
+  font-weight: 700;
+  font-family: Nunito Sans;
+  font-size: 0.9vw;
+  border-radius: 10px;
+}
+
+.row div:nth-child(1) .button a img {
+  width: 20%;
+}
+
+.row div:nth-child(1) .button a:nth-child(1) {
+  background-color: #F8F0E3;
+  color: #020636;
+}
+
+.row div:nth-child(1) .button a:nth-child(2) {
+  background-color: #D65123;
+}
+
+.row div:nth-child(1) .button a:nth-child(2) img {
+  padding-right: 4px;
+}
+
+.row .vest {
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #F8F0E380;
+  padding: 5px;
+  font-size: 0.9vw;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+
+.row .vest img {
+  padding-right: 10px;
+}
 /*# sourceMappingURL=style.css.map */
