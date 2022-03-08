@@ -193,7 +193,7 @@
       position: absolute;
       z-index: +1;
       top: 49vw;
-      @media only screen and(max-width:992px ){
+      @media only screen and(max-width:1224px ){
         position: relative;
       z-index: 0;
       top: 0;
@@ -298,9 +298,87 @@
   }
 }
 .section3{
-    align-items: center;
-    div:nth-child(1) {
-        align-items: center;
-        align-self: center;
+    padding-top: 5vw;
+    article{
+        div:first-child{
+            padding-top: 5vw;
+            span:first-child{
+                font-size: 2.5vw;
+                // display: flex;
+                // justify-content: center;
+                font-family: $font-family;
+                color: #020636;
+                font-weight: 700;
+                line-height: 2;
+                img{
+                    padding-right: 1vw;
+                }
+                @media only screen and(max-width:768px) {
+                    font-size: 28px;
+                    
+                }
+            }
+            span {
+                display: flex;
+               //width: 5vw;
+               img{
+                   padding-right: 1vw;
+               }
+              
+            }
+            a{
+                text-decoration: none;
+                border: 2px solid black;
+                padding-left: 7vw;
+                padding-right: 7vw;
+                padding-top: 0.8vw;
+                padding-bottom: 0.5vw;
+                border-radius: 10px;
+                background-color: $btn-blue-color;
+                color: $text-color;
+                
+                // @media only screen and(max-width:768px) {
+                //     font-size: 15px;
+                //     width: 200px;
+                
+            }
+            h6{
+                width: 22vw;
+                font-size: 1vw;
+                line-height: 1.5;
+               
+                @media only screen and(max-width:768px) {
+                    font-size: 14px;
+                    width: 250px;
+                }
+            }
+             p{
+                width: 2vw;
+               line-height: 4;
+            display: flex;
+            align-items: center;
+            // align-self: center;
+            // align-content: center;
+            display: contents;
+            color: $btn-blue-color;
+            font-size: 1vw;
+            @media only screen and(max-width:768px) {
+                font-size: 15px;
+                width: 200px;
+                
+            }
+        
+             }
+           
+        }
     }
+    .pad{
+        padding-bottom: 5vw;
+    }
+    div:nth-child(2){
+        @media only screen and(max-width:768px) {
+            padding-top: 30px;
+        }
+    }
+    
 }
