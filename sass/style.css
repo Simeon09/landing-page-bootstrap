@@ -118,7 +118,7 @@
 }
 
 .navbar {
-  background-color: #F8F0E3 !important;
+  background-color: #f8f0e3 !important;
 }
 
 .section1 {
@@ -245,7 +245,7 @@
 .sec1 .vest {
   border: 1px solid black;
   border-radius: 20px;
-  background-color: #F8F0E380;
+  background-color: #f8f0e380;
   padding: 5px;
   font-size: 0.9vw;
   padding-left: 10px;
@@ -269,7 +269,7 @@
 }
 
 .section2 {
-  color: black;
+  color: #020636;
 }
 
 .section2 div:first-child .iphone {
@@ -280,5 +280,90 @@
 
 .section2 div:nth-child(2) {
   padding-top: 5vw;
+}
+
+.section2 div:nth-child(2) h1:first-child {
+  font-size: 3vw;
+  font-weight: 800;
+  font-family: Nunito Sans;
+  -webkit-box-pack: last baseline;
+      -ms-flex-pack: last baseline;
+          justify-content: last baseline;
+}
+
+.section2 div:nth-child(2) h5 {
+  font-size: 2.2vw;
+  font-style: normal;
+  font-family: Nunito Sans;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.section2 div:nth-child(2) p {
+  font-size: 1.4vw;
+}
+
+.section2 div:nth-child(2) p span {
+  color: #020636;
+  font-weight: 700;
+}
+
+.section2 div:nth-child(2) .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 28vw;
+  padding-top: 2vw;
+}
+
+.section2 div:nth-child(2) .button a {
+  text-decoration: none;
+  color: #020636;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.5vw;
+  padding-top: 0.5vw;
+  font-weight: 700;
+  font-family: Nunito Sans;
+  font-size: 0.7vw;
+  border-radius: 10px;
+}
+
+.section2 div:nth-child(2) .button a h5 {
+  font-size: 1vw;
+  line-height: 1;
+}
+
+.section2 div:nth-child(2) .button img {
+  width: 25%;
+}
+
+.section2 div:nth-child(2) .button a:nth-child(1) {
+  background-color: #D65123;
+  color: #020636;
+}
+
+.section2 div:nth-child(2) .button a:nth-child(1) img {
+  padding-right: 15px;
+}
+
+.section2 div:nth-child(2) .button a:nth-child(2) {
+  background-color: #020636;
+  color: #F8F0E3;
+}
+
+.section2 div:nth-child(2) .button a:nth-child(2) img {
+  padding-right: 20px;
 }
 /*# sourceMappingURL=style.css.map */
