@@ -508,4 +508,161 @@
     padding-top: 30px;
   }
 }
+
+.section4 {
+  background-image: url("/images/backimg (1).png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #020636;
+  color: #F8F0E3;
+}
+
+@media screen and (max-width: 700px) {
+  .section4 {
+    display: none;
+  }
+}
+
+.section4 .sec4 {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+}
+
+.section4 .sec4 h4 {
+  width: 700px;
+  font-size: 38px;
+  font-size: Nunito Sans;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .section4 .sec4 h4 {
+    font-size: 3vw;
+  }
+}
+
+.section4 .sec4 p {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #f8f0e3;
+  font-family: Nunito Sans;
+}
+
+@media screen and (max-width: 700px) {
+  .section4 .sec4 p {
+    font-size: 1vw;
+  }
+}
+
+.section4 .sec4 .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 700px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 700px) {
+  .section4 .sec4 .btn {
+    display: none;
+  }
+}
+
+.section4 .sec4 .btn a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1;
+  padding: 2px;
+  padding-top: 2px;
+  font-weight: 700;
+  font-family: Nunito Sans;
+  font-size: 12px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.section4 .sec4 .btn a h5 {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.section4 .sec4 .btn a img {
+  width: 20%;
+  padding-right: 3px;
+  padding-left: 2px;
+}
+
+.section4 .sec4 .btn a:first-child {
+  background-color: #D65123;
+  color: #F8F0E3;
+}
+
+.section4 .sec4 .btn a:nth-child(2) {
+  background-color: #F8F0E3;
+  color: #020636;
+}
+
+.section4 .sec4 .img-fluid {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto !important;
+}
+
+@media screen and (max-width: 700px) {
+  .section4 .sec4 .img-fluid {
+    display: none;
+  }
+}
+
+.section5 {
+  background-color: #f8f0e3;
+}
+
+.section5 .accordion {
+  width: 1200px;
+  background-color: #F8F0E3 !important;
+}
+
+.section5 .accordion-item .accordion-button {
+  background-color: #f8f0e3;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  margin-bottom: 20px;
+}
+
+.section5 .accordion-flush .accordion-item {
+  background-color: #F8F0E3;
+}
 /*# sourceMappingURL=style.css.map */
