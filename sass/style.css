@@ -674,4 +674,9 @@ footer .comment {
     display: grid;
   }
 }
+
+footer .comment div:nth-child(2) p a {
+  text-decoration: none;
+  color: #F8F0E3;
+}
 /*# sourceMappingURL=style.css.map */
