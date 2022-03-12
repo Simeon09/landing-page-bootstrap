@@ -65,17 +65,8 @@
   }
 }
 
-.header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
 .d-flex {
-  width: 30vw;
+  gap: 20px;
 }
 
 @media screen and (max-width: 991px) {
@@ -127,7 +118,7 @@
 
 .sec1 {
   color: #F8F0E3;
-  padding-top: 6vw;
+  padding-top: 100px;
   padding-bottom: 12vw;
 }
 
@@ -187,7 +178,7 @@
     display: grid;
     gap: 30px;
     width: 0rem;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 }
 
@@ -265,7 +256,7 @@
 .section2 div:first-child .iphone {
   position: absolute;
   z-index: +1;
-  top: 49vw;
+  top: 705px;
 }
 
 @media only screen and (max-width: 1224px) {
@@ -284,7 +275,7 @@
 }
 
 .section2 div:nth-child(2) {
-  padding-top: 5vw;
+  padding-top: 50px;
 }
 
 .section2 div:nth-child(2) h1:first-child {
@@ -301,7 +292,7 @@
 
 .section2 div:nth-child(2) p {
   font-size: 17px;
-  line-height: 2.5;
+  line-height: 2;
 }
 
 .section2 div:nth-child(2) p span {
@@ -377,7 +368,18 @@
 }
 
 .section3 {
+  padding-top: 150px;
   padding-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .section3 {
+    padding-top: 0%;
+  }
+}
+
+.section3 #Work {
+  padding-top: 90px;
 }
 
 .section3 article div:first-child span:first-child {
@@ -423,6 +425,7 @@
     padding-right: 70px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 1opx;
   }
 }
 
@@ -457,7 +460,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 20px;
+  padding-top: 25px;
 }
 
 .section4 .sec4 h3 {
@@ -517,20 +520,19 @@
   padding-top: 2px;
   font-weight: 700;
   font-family: Nunito Sans;
-  font-size: 12px;
+  font-size: 15px;
   border-radius: 10px;
-  width: 200px;
+  width: 14rem;
 }
 
 .section4 .sec4 .btn a h5 {
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 20px;
+  line-height: 1;
 }
 
 .section4 .sec4 .btn a img {
-  width: 20%;
-  padding-right: 3px;
-  padding-left: 2px;
+  width: 15%;
+  margin-right: 20px;
 }
 
 .section4 .sec4 .btn a:first-child {
@@ -583,7 +585,17 @@
   padding-bottom: 30px;
 }
 
+.section5 .accord {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .section5 .accordion {
+  width: 1000px !important;
   background-color: #f8f0e3 !important;
 }
 
@@ -610,13 +622,24 @@ footer .foot {
       align-self: center;
 }
 
+footer .foot .roll {
+  max-width: 1600px;
+}
+
+@media screen and (max-width: 768px) {
+  footer .foot .careers {
+    padding-top: 20px;
+  }
+}
+
 footer .foot ul {
   list-style-type: none;
   padding-top: 10px;
+  display: contents;
 }
 
 footer .foot ul li {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 footer .foot .position {
@@ -626,8 +649,6 @@ footer .foot .position {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  -ms-flex-item-align: center;
-      align-self: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -640,6 +661,8 @@ footer .foot .position {
 
 footer .foot .icon img {
   padding-top: 50px;
+  width: 13%;
+  padding-right: 6px;
 }
 
 @media only screen and (max-width: 950px) {
@@ -652,8 +675,13 @@ footer .foot .iconShow {
   padding-top: 20px;
 }
 
+footer .foot .iconShow img {
+  width: 8%;
+  padding-right: 5px;
+}
+
 @media only screen and (min-width: 950px) {
-  footer .foot .iconShow {
+  footer .foot .iconShow img {
     display: none;
   }
 }
@@ -672,6 +700,10 @@ footer .comment {
   footer .comment {
     display: -ms-grid;
     display: grid;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
