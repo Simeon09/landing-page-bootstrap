@@ -719,7 +719,6 @@ footer .comment div:nth-child(2) p a {
 }
 
 .dynamic-text {
-  margin-left: -20px;
   line-height: 90px;
   height: 90px;
   overflow: hidden;
