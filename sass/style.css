@@ -118,7 +118,7 @@
 
 .sec1 {
   color: #F8F0E3;
-  padding-top: 100px;
+  padding-top: 70px;
   padding-bottom: 12vw;
 }
 
@@ -132,7 +132,7 @@
 }
 
 .sec1 div:nth-child(1) h3 {
-  font-size: 2.5vw;
+  font-size: 45px;
   font-weight: 700;
   font-family: Nunito Sans;
   width: 29vw;
@@ -147,7 +147,7 @@
   }
 }
 
-.sec1 div:nth-child(1) h3 span:nth-child(1) {
+.sec1 div:nth-child(1) h3 .dress {
   border: 2px solid #D65123;
   border-radius: 60%;
   padding: 7px 0px 7px 5px;
@@ -710,5 +710,71 @@ footer .comment {
 footer .comment div:nth-child(2) p a {
   text-decoration: none;
   color: #F8F0E3;
+}
+
+.wrapper {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.dynamic-text {
+  margin-left: -20px;
+  line-height: 90px;
+  height: 90px;
+  overflow: hidden;
+}
+
+.dynamic-text li {
+  list-style-type: none;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: Nunito Sans;
+  position: relative;
+  top: 0;
+  -webkit-animation: slide 5s steps(3) infinite;
+          animation: slide 5s steps(3) infinite;
+}
+
+.dynamic-text li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #020636;
+  border-left: 2px solid red;
+  -webkit-animation: typing 1.5s steps(10) infinite;
+          animation: typing 1.5s steps(10) infinite;
+}
+
+@-webkit-keyframes slide {
+  100% {
+    top: -260px;
+  }
+}
+
+@keyframes slide {
+  100% {
+    top: -260px;
+  }
+}
+
+.dynamic-text li span {
+  position: relative;
+}
+
+@-webkit-keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
+}
+
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

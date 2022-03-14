@@ -98,13 +98,13 @@
 }
 .sec1 {
   color: $text-color;
-  padding-top: 100px;
+  padding-top: 70px;
   padding-bottom: 12vw;
   div:nth-child(1) {
     align-items: center;
     align-self: center;
     h3 {
-      font-size: 2.5vw;
+      font-size: 45px;
       font-weight: 700;
       font-family: $font-family;
       width: 29vw;
@@ -114,7 +114,7 @@
         width: 78vw;
         padding-top: 2vw;
       }
-      span:nth-child(1) {
+      .dress {
         border: 2px solid $btn2-color;
         border-radius: 60%;
         padding: 7px 0px 7px 5px;
@@ -665,3 +665,53 @@ footer {
     }
   }
 }
+.wrapper{
+  display: inline-flex;
+}
+.dynamic-text{
+  margin-left: -20px;
+  line-height: 90px;
+  height: 90px;
+  //background-color: red;
+  overflow: hidden;
+  li{
+    list-style-type: none;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: $font-family;
+    position: relative;
+    top: 0;
+    animation: slide 5s steps(3) infinite;
+    span::after{
+      content: "";
+      position: absolute;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: $btn-blue-color;
+      border-left: 2px solid red;
+      animation: typing 1.5s steps(10) infinite;
+
+    }
+  }
+}
+ @keyframes slide{
+  100%{
+ top: -260px;
+//     margin: 0 -35px 0 35px;
+  }
+ }
+ .dynamic-text li span {
+   position: relative;
+//   content: "";
+//   position: absolute;
+//   height: 100%;
+//   width: 100%;
+//   border-left: 2px solid red;
+ }
+ @keyframes typing{
+   100%{
+     left: 100%;
+     margin: 0 -35px 0 35px;
+   }
+ }
